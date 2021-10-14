@@ -1,0 +1,51 @@
+{
+  "_comment": "This is a sample JSON file. Anything starting with an underscore (like this _comment) should be ignored. Please always use comments to explain your JSON clearly to your marker",
+  "ballboySize": "large",
+  "_ballboySizeComment": "Your main character can be small, medium or large. What pixel dimensions these match can be up to you.",
+
+  "level":{
+
+    "levelHeight": 400.0,
+    "levelWidth": 1000.0,
+    "gravity": 9.8,
+
+    "floorAppearance": "GREEN",
+    "skyAppearance": "LIGHTBLUE",
+    "floorHeight": 50.0,
+
+    "ballboyPos": {
+      "x": 20.0,
+      "y": 30.0
+    },
+    "_ballboyPosComment": "ballboy start at the x and y position indicated. This must be a positive double.",
+
+    "finish": {
+      "x": 700.0,
+      "y": 300.0
+    },
+    "_finishComment": "finish will be rendered at the x and y position indicated, this must be positive double that smaller than levelWidth and levelheight respectively ",
+
+    "platform":
+      [{"x": 300.0, "y": 200.0},
+       {"x": 200.0, "y": 200.0},
+       {"x": 100.0, "y": 200.0}
+      ],
+    "_platformComment": "each platform will be rendered at the x and y position indicated, this must be positive double that smaller than levelWidth and levelheight respectively ",
+
+    "enemy":
+      [{"type": "goRight", "color": "red", "width": 30.0,
+          "height": 20.0, "xVel": 0.0, "yVel": 0.0,
+          "x": 100.0, "y": 330.0}
+      ],
+    "_enemyComment": "each enemy will be rendered at the x and y position indicated, this must be positive double that smaller than levelWidth and levelheight respectively, color could be red, green, yellow, purple or blue, type should be either still, goLeft or goRight, xVel and yVel will not affect the behavior of this entity since it is controlled by strategy. ",
+
+    "clouds":
+    [ {"x": 40.0, "y": 130.0, "xVel": 0.03, "yVel": 0.0 },
+      {"x": 120.0, "y": 200.0, "xVel": 0.03, "yVel": 0.0 },
+      {"x": 300.0, "y": 300.0, "xVel": 0.03, "yVel": 0.0 }],
+
+    "_cloudComment": "each cloud will be rendered at the x and y position indicated, this must be positive double that smaller than levelWidth and levelheight respectively, xVel and yVel could be any double value, but use a reasonably small value to be able see the clouds 'floating' and 'moving' "
+
+
+  }
+}
