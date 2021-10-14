@@ -1,12 +1,10 @@
 package ballboy;
 
-import ballboy.model.JSONInterpreter;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import ballboy.model.GameEngine;
 import ballboy.model.GameEngineImpl;
 import ballboy.view.GameWindow;
-import org.json.simple.JSONObject;
 
 import java.util.Map;
 

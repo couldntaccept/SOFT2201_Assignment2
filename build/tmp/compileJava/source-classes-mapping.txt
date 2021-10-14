@@ -28,8 +28,8 @@ ballboy/model/Strategy/HoldStillStrategy.java
 ballboy/model/Entity.java
  ballboy.model.Entity
  ballboy.model.Entity$Layer
-ballboy/App.java
- ballboy.App
+ballboy/model/LevelImpl.java
+ ballboy.model.LevelImpl
 ballboy/view/EntityView.java
  ballboy.view.EntityView
 ballboy/view/BlockedBackground.java
@@ -46,7 +46,7 @@ ballboy/model/Ballboy.java
  ballboy.model.Ballboy
 ballboy/model/GameEngineImpl.java
  ballboy.model.GameEngineImpl
-ballboy/model/JSONInterpreter.java
- ballboy.model.JSONInterpreter
-ballboy/model/LevelImpl.java
- ballboy.model.LevelImpl
+ballboy/App.java
+ ballboy.App
+ballboy/JSONInterpreter.java
+ ballboy.JSONInterpreter
